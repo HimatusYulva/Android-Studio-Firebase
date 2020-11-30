@@ -1,14 +1,16 @@
 package com.example.crud
 
 class data_mahasiswa {
-    var NIM : String? = null
-    var Nama : String? = null
-    var Jurusan : String? = null
-    var key :String? = null
-    constructor()
-    constructor(NIM:String?, Nama:String?, Jurusan:String?){
-        this.NIM = NIM
-        this.Nama = Nama
-        this.Jurusan = Jurusan
+
+    var nim: String? = null
+    var nama: String? = null
+    var jurusan: String? = null
+    var key: String? = null
+
+    constructor(nim: String?, nama: String?, jurusan: String?) {
+        this.nim = nim
+        this.nama = nama
+
+        this.jurusan = jurusan
     }
 }
